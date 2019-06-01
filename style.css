@@ -1,0 +1,49 @@
+body {
+  background-image: url("images/img00j.jpg");
+  background-size: cover;
+}
+
+.top-banner {
+  border 0px solid;
+  display: grid;
+  height: 90px;
+  width: 500px;
+}
+
+#invisible {
+  border: 0px solid;
+  position: absolute;
+  height: 500px;
+  width: 200px;
+}
+#grid {
+  display: grid;
+  border: 30px, solid Teal;
+  width: 500px;
+  height: 500px;
+  grid-template-columns: 25% 25% 2fr 1fr;
+  grid-template-rows: 200px 200px;
+  grid-row-gap: 10px;
+  grid-column-gap: 15px;
+  background-color: #7CFC00;
+}
+
+#boss {
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+#baws {
+  grid-row-start: 2;
+  grid-row-end: 4;
+}
+
+#bossy {
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+#bowser {
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
